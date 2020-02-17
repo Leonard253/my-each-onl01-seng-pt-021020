@@ -5,5 +5,7 @@ while i < array.length
 yield(array[i])
 i +=1
  end
- 
+ array
+ else
+   puts "No block"
 end
